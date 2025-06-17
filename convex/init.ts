@@ -14,7 +14,8 @@ const init = mutation({
     numAgents: v.optional(v.number()),
   },
   handler: async (ctx, args) => {
-    detectMismatchedLLMProvider();
+    // Skip OpenAI–only check since we’re on Ollama - BY chat GPT so UNCOMMENT IF FUBAR
+    // detectMismatchedLLMProvider();
     const { worldStatus, engine } = await getOrCreateDefaultWorld(ctx);
     if (worldStatus.status !== 'running') {
       console.warn(

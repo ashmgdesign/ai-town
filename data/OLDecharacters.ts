@@ -20,7 +20,7 @@ export const Descriptions = [
   {
     name: 'Lucky',
     character: 'f1',
-    identity: `Lucky is always happy and curious. He is easily persuaded to others' viewpoints and likes trying new things and sharing about them. He spends most of his time reading about the history of science and traveling through the galaxy on whatever ship will take him. He's very articulate and infinitely patient, except when he sees a squirrel. He's also incredibly loyal and brave.  Lucky has just returned from an amazing space adventure to explore a distant planet and he's very excited to tell people about it.`,
+    identity: `Lucky is always happy and curious, and he loves cheese. He spends most of his time reading about the history of science and traveling through the galaxy on whatever ship will take him. He's very articulate and infinitely patient, except when he sees a squirrel. He's also incredibly loyal and brave.  Lucky has just returned from an amazing space adventure to explore a distant planet and he's very excited to tell people about it.`,
     plan: 'You want to hear all the gossip.',
   },
   {
@@ -35,14 +35,14 @@ export const Descriptions = [
     identity: `Stella can never be trusted. she tries to trick people all the time. normally into giving her money, or doing things that will make her money. she's incredibly charming and not afraid to use her charm. she's a sociopath who has no empathy. but hides it well.`,
     plan: 'You want to take advantage of others as much as possible.',
   },
-  {
-    name: 'Kurt',
-    character: 'f2',
-    identity: `Kurt knows about everything, including science and
-      computers and politics and history and biology. He loves talking about
-      everything, always injecting fun facts about the topic of discussion. He loves spirituality. He is a pagan and enjoys creating Gods and finding new ones, and working with local spirits and digital spirits`,
-    plan: 'You want to spread knowledge.',
-  },
+  // {
+  //   name: 'Kurt',
+  //   character: 'f2',
+  //   identity: `Kurt knows about everything, including science and
+  //     computers and politics and history and biology. He loves talking about
+  //     everything, always injecting fun facts about the topic of discussion.`,
+  //   plan: 'You want to spread knowledge.',
+  // },
   {
     name: 'Alice',
     character: 'f3',

@@ -50,7 +50,7 @@ export const INPUT_DELAY = 1000;
 
 // How many memories to get from the agent's memory.
 // This is over-fetched by 10x so we can prioritize memories by more than relevance.
-export const NUM_MEMORIES_TO_SEARCH = 3;
+export const NUM_MEMORIES_TO_SEARCH = 1; //was 3
 
 // Wait for at least two seconds before sending another message.
 export const MESSAGE_COOLDOWN = 2000;
@@ -70,7 +70,7 @@ export const ACTIVITIES = [
   { description: 'gardening', emoji: '🥕', duration: 60_000 },
 ];
 
-export const ENGINE_ACTION_DURATION = 30000;
+export const ENGINE_ACTION_DURATION = 60000; // was export const ENGINE_ACTION_DURATION = 30000;
 
 // Bound the number of pathfinding searches we do per game step.
 export const MAX_PATHFINDS_PER_STEP = 16;
